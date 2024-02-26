@@ -1,0 +1,198 @@
+INFO - 2023-10-23 22:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:06:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+ERROR - 2023-10-23 22:06:51 --> mysqli_sql_exception: Table 'u268758892_simkkn.bcms_layanan' doesn't exist in /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /usr/local/var/www/simkkn/app/Models/Backend/LayananModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/local/var/www/simkkn/app/Controllers/Home.php(31): App\Models\Backend\LayananModel->getLayananByKategori('Layanan Unggula...')
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#7 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#11 {main}
+INFO - 2023-10-23 22:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:09:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+ERROR - 2023-10-23 22:09:24 --> mysqli_sql_exception: Table 'u268758892_simkkn.bcms_layanan' doesn't exist in /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /usr/local/var/www/simkkn/app/Models/Backend/LayananModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/local/var/www/simkkn/app/Controllers/Home.php(31): App\Models\Backend\LayananModel->getLayananByKategori('Layanan Unggula...')
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#7 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#11 {main}
+INFO - 2023-10-23 22:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:09:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+ERROR - 2023-10-23 22:09:50 --> mysqli_sql_exception: Table 'u268758892_simkkn.bcms_layanan' doesn't exist in /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /usr/local/var/www/simkkn/app/Models/Backend/LayananModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/local/var/www/simkkn/app/Controllers/Home.php(31): App\Models\Backend\LayananModel->getLayananByKategori('Layanan Unggula...')
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#7 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#11 {main}
+INFO - 2023-10-23 22:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:23:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+ERROR - 2023-10-23 22:23:33 --> mysqli_sql_exception: Table 'u268758892_simkkn.bcms_layanan' doesn't exist in /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /usr/local/var/www/simkkn/app/Models/Backend/LayananModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/local/var/www/simkkn/app/Controllers/Home.php(31): App\Models\Backend\LayananModel->getLayananByKategori('Layanan Unggula...')
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#7 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#11 {main}
+INFO - 2023-10-23 22:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:23:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+ERROR - 2023-10-23 22:23:47 --> mysqli_sql_exception: Table 'u268758892_simkkn.bcms_layanan' doesn't exist in /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /usr/local/var/www/simkkn/app/Models/Backend/LayananModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/local/var/www/simkkn/app/Controllers/Home.php(31): App\Models\Backend\LayananModel->getLayananByKategori('Layanan Unggula...')
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#7 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#11 {main}
+INFO - 2023-10-23 22:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:23:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+ERROR - 2023-10-23 22:23:47 --> mysqli_sql_exception: Table 'u268758892_simkkn.bcms_layanan' doesn't exist in /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:331
+Stack trace:
+#0 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /usr/local/var/www/simkkn/app/Models/Backend/LayananModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/local/var/www/simkkn/app/Controllers/Home.php(31): App\Models\Backend\LayananModel->getLayananByKategori('Layanan Unggula...')
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#7 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#11 {main}
+INFO - 2023-10-23 22:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:30:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 22:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:30:38 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 22:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-23 22:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:30:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 22:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:30:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 22:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:30:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 22:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:30:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 22:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:31:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 22:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 22:31:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2023-10-23 23:00:40 --> Invalid argument supplied for foreach()
+#0 /usr/local/var/www/simkkn/app/Views/front/pages/pengumuman.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/usr/local/var/...', 88, Array)
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/View/View.php(246): include('/usr/local/var/...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('front/pages/pen...', Array, true)
+#3 /usr/local/var/www/simkkn/app/Controllers/Pengumuman.php(21): view('front/pages/pen...', Array)
+#4 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Pengumuman->index()
+#5 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2023-10-23 23:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 23:00:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 23:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 23:00:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2023-10-23 23:01:01 --> Invalid argument supplied for foreach()
+#0 /usr/local/var/www/simkkn/app/Views/front/pages/pengumuman.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/usr/local/var/...', 88, Array)
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/View/View.php(246): include('/usr/local/var/...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('front/pages/pen...', Array, true)
+#3 /usr/local/var/www/simkkn/app/Controllers/Pengumuman.php(21): view('front/pages/pen...', Array)
+#4 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Pengumuman->index()
+#5 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+CRITICAL - 2023-10-23 23:01:09 --> Invalid argument supplied for foreach()
+#0 /usr/local/var/www/simkkn/app/Views/front/pages/pengumuman.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/usr/local/var/...', 88, Array)
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/View/View.php(246): include('/usr/local/var/...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('front/pages/pen...', Array, true)
+#3 /usr/local/var/www/simkkn/app/Controllers/Pengumuman.php(21): view('front/pages/pen...', Array)
+#4 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Pengumuman->index()
+#5 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+CRITICAL - 2023-10-23 23:01:39 --> Invalid argument supplied for foreach()
+#0 /usr/local/var/www/simkkn/app/Views/front/pages/pengumuman.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/usr/local/var/...', 86, Array)
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/View/View.php(246): include('/usr/local/var/...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('front/pages/pen...', Array, true)
+#3 /usr/local/var/www/simkkn/app/Controllers/Pengumuman.php(21): view('front/pages/pen...', Array)
+#4 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Pengumuman->index()
+#5 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+CRITICAL - 2023-10-23 23:07:21 --> Invalid argument supplied for foreach()
+#0 /usr/local/var/www/simkkn/app/Views/front/pages/pengumuman.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/usr/local/var/...', 27, Array)
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/View/View.php(246): include('/usr/local/var/...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('front/pages/pen...', Array, true)
+#3 /usr/local/var/www/simkkn/app/Controllers/Pengumuman.php(21): view('front/pages/pen...', Array)
+#4 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Pengumuman->index()
+#5 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+CRITICAL - 2023-10-23 23:08:37 --> Invalid argument supplied for foreach()
+#0 /usr/local/var/www/simkkn/app/Views/front/pages/pengumuman.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/usr/local/var/...', 27, Array)
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/View/View.php(246): include('/usr/local/var/...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('front/pages/pen...', Array, true)
+#3 /usr/local/var/www/simkkn/app/Controllers/Pengumuman.php(21): view('front/pages/pen...', Array)
+#4 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Pengumuman->index()
+#5 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+CRITICAL - 2023-10-23 23:08:39 --> Invalid argument supplied for foreach()
+#0 /usr/local/var/www/simkkn/app/Views/front/pages/pengumuman.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/usr/local/var/...', 27, Array)
+#1 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/View/View.php(246): include('/usr/local/var/...')
+#2 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('front/pages/pen...', Array, true)
+#3 /usr/local/var/www/simkkn/app/Controllers/Pengumuman.php(21): view('front/pages/pen...', Array)
+#4 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Pengumuman->index()
+#5 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/simkkn/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/simkkn/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2023-10-23 23:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 23:30:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-10-23 23:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-23 23:30:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

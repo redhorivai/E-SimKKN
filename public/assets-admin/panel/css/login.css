@@ -1,0 +1,371 @@
+@font-face {
+  font-family: andick_buntu;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: andick_buntu;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+
+span {
+  font-size: 12px;
+  color: #888;
+}
+
+a {
+  color: #666;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #04b199;
+  background-color: #04b199;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+form {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: #eee;
+  border: 2px solid #dce4ec;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 2px solid #04b199;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.form-container h1 {
+  margin-bottom: 40px;
+}
+
+.form-container a {
+  font-size: 12px;
+}
+
+.form-container span {
+  width: 100%;
+}
+
+.form-container a:hover {
+  color: #04b199;
+}
+
+.remember {
+  float: left;
+  margin: 0 0 15px;
+}
+
+.forgot {
+  float: right;
+  margin: 0 0 15px;
+}
+
+.img-atas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 30px 50px 0;
+}
+
+.img-atas img {
+  width: 70%;
+}
+
+.img-bawah {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 50px 30px;
+}
+
+.img-bawah .kiri {
+  width: 40%;
+  float: left;
+}
+
+.img-bawah .kanan {
+  width: 40%;
+  float: right;
+}
+
+.login-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.container.geser-active .login-container {
+  transform: translateX(100%);
+}
+
+.lacak-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.container.geser-active .lacak-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: show 0.6s;
+}
+
+@keyframes show {
+  0%,
+  49.99% {
+    opacity: 0;
+    z-index: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 1;
+    z-index: 5;
+  }
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.container.geser-active .overlay-container {
+  transform: translateX(-100%);
+}
+
+.overlay {
+  background: #7ac34d;
+  background: -webkit-linear-gradient(to right, #7ac34d, #048199);
+  background: linear-gradient(to right, #7ac34d, #048199);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.container.geser-active .overlay {
+  transform: translateX(50%);
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+  transform: translateX(-20%);
+}
+
+.container.geser-active .overlay-left {
+  transform: translateX(0);
+}
+
+.overlay-right {
+  right: 0;
+  transform: translateX(0);
+}
+
+.container.geser-active .overlay-right {
+  transform: translateX(20%);
+}
+
+/*.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #DDDDDD;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .container {
+    max-width: 85%;
+    /* min-height: 380px; */
+  }
+  .login-container {
+    width: 100%;
+  }
+  .overlay-container {
+    display: none;
+  }
+  form {
+    padding: 0 30px;
+  }
+  input {
+    padding: 10px 13px;
+    margin: 6px 0;
+  }
+  button {
+    padding: 10px 35px;
+  }
+  .img-atas {
+    padding: 30px 30px 0;
+  }
+  .img-atas img {
+    width: 85%;
+  }
+  .img-bawah {
+    padding: 0 30px 30px;
+  }
+  .img-bawah .kiri {
+    width: 43%;
+  }
+  .img-bawah .kanan {
+    width: 43%;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media only screen and (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media only screen and (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media only screen and (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media only screen and (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
